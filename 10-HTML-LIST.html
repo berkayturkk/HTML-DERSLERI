@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 LISTS</title>
+</head>
+<body>
+    <!-- HTML5 Unordered Lists (Sırasız Liste) -->
+
+    <!-- Unordered list olustururken <ul> etiketi kullanılır -->
+    <!-- type özelligi ile sırasız liste elemanlarının basındaki sembolleri degistirebiliriz -->
+    <ul type="circle"> 
+        <!-- <li> : Liste elemanlarını olusturur -->
+        <li>Front-End</li>  
+            <!-- bir ul elemanın li sine alt bir li eklemek icin  -->
+            <ul> 
+                <li>React</li>
+                <li>Vue</li>
+                <li>Angular</li>
+            </ul>
+        <li>Back-End</li> 
+            <ul>
+                <li>Pyhton</li>
+                <li>Java</li>
+                <li>C#</li>
+            </ul>   
+    </ul>
+
+    <!-- HTML5 Ordered Lists (Sıralı Liste) -->
+
+    <!-- <ol> etiketi ile Ordered list olusturulur -->
+
+    <ol>
+        <li>Pyhton</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- start özelligi sıranın nereden baslayacagını belirler -->
+
+    <ol start="15">
+        <li>Pyhton</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- type özelligi ile sıra sembolleri olusturulur -->
+
+    <ol type="A">
+        <li>Pyhton</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- <dl> : Acıklama listesini tanımlar -->
+    <!-- <dt> : Açıklama listesinde bir terim tanımlar -->
+    <!-- <dd> : Tanımlama listesindeki terimi tanımlar -->
+    
+    <dl>
+        <dt>Coffee</dt>
+          <dd>
+              - black hot drink
+          </dd>
+        <dt>Milk</dt>
+          <dd>
+              - white cold drink
+          </dd>
+    </dl>
+
+
+
+    
+</body>
+</html>

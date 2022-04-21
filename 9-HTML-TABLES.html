@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 TABLES</title>
+    <!-- Head etiketi icerisinde yazlan style özellikleri internal css olarak adlandırılır -->
+    <style>
+        table,th,td {
+            border: 1px solid black; /* Cerceve olusturur */
+            border-collapse: collapse;  /* Köseleri birlestirir */
+            text-align: center; /* Yazıyı ortalar */
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- <table> etiketi : Tablo olusturur -->
+    <!-- <thead> : Baslık rowlarını olusturur -->
+    <!-- <tbody> : Tablo iceriklerini olusturur -->
+    <!-- <tr> : Tablonun row'unu olusturur -->
+    <!-- <th> : Tablo row'unun icindeki degeri kalın yazar yani baslık olarak gösterir -->
+    <!-- <td> : Tablo row'unun degerlerini belirtir -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Mehmet</td>
+                <td>Matematik</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>Ayse</td>
+                <td>Fizik</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>Elif</td>
+                <td>Kimya</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td>Murat</td>
+                <td>Sosyal</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td>Kerem</td>
+                <td>Türkce</td>
+                <td>4000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
